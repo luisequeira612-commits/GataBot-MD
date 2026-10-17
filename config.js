@@ -645,4 +645,4 @@ global.grupo2 = 'https://chat.whatsapp.com/B5s3ohjEGofH5YDD05jAV5'
 global.grupo_collab1 = 'https://chat.whatsapp.com/IO5k0UOF7hOJHE1eH3Fcxh'
 global.grupo_collab2 = 'https://chat.whatsapp.com/GFsgXW2VD4I4FEOSlEg9wp'
 global.grupo_collab3 = 'https://chat.whatsapp.com/H1TEBeMtFVv3RcayD1WfGU'
-global.grupo_collab 
+global.grupo_collab = ''
