@@ -100,7 +100,7 @@ global.official = [
 // Agregate si eres Owner
 ['593968263524', 'Gata Dios 💻', 1],
 ['573147616444', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
-['5521989092076', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]
+['5521989092076', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 Oficial 💻', 1]
 ]
 
 global.mail = '' // Add email
@@ -599,7 +599,7 @@ ch3: '120363301598733462@newsletter',
 ch4: '120363418207293803@newsletter',
 ch5: '120363343811229130@newsletter',
 ch6: '120363307551724976@newsletter',
-ch7: '120363307551724976@newsletter',
+ch7: '120363370415738881@newsletter',
 ch8: '120363374372683775@newsletter',
 ch9: '120363190430436554@newsletter',
 ch10: '120363323286489957@newsletter',
@@ -617,6 +617,13 @@ ch21: '120363420992828502@newsletter',
 ch22: '120363420238618096@newsletter'
 }
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
+
+let file = fileURLToPath(import.meta.url)
+watchFile(file, () => {
+unwatchFile(file)
+console.log(chalk.redBright("Update 'config.js'"))
+import(`${file}?update=${Date.now()}`)
+})
 
 global.yt = 'https://youtube.com/@gatadios'
 global.ig = 'https://www.instagram.com/gata_dios'
@@ -638,10 +645,4 @@ global.grupo2 = 'https://chat.whatsapp.com/B5s3ohjEGofH5YDD05jAV5'
 global.grupo_collab1 = 'https://chat.whatsapp.com/IO5k0UOF7hOJHE1eH3Fcxh'
 global.grupo_collab2 = 'https://chat.whatsapp.com/GFsgXW2VD4I4FEOSlEg9wp'
 global.grupo_collab3 = 'https://chat.whatsapp.com/H1TEBeMtFVv3RcayD1WfGU'
-global.grupo_collab4 = ''
-
-let file = fileURLToPath(import.meta.url)
-watchFile(file, () => {
-unwatchFile(file)
-console.log(chalk.redBright("Update 'config.js'"))
-import(`${file}?update=${Date.now()}
+global.grupo_collab4 = 'https://chat.whatsapp.com/LuD3YzdOjH16LUwPPCVmL6'
